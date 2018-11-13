@@ -1,0 +1,41 @@
+header {
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 1px;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin: 4px;
+}
+a {
+    color: purple;
+}
+.disabled {
+    color: gray;
+}   
+.active {
+    color: yellow;
+}
+h4 + div > div{
+    color: red;
+}
+
+h4 + div ~ div {
+    color: blue;
+}
+*/
+h4 + div ~ h4{
+    background-color: red;
+}
+h4 + div ~ h4{
+    background-color: blue;
+}
+.promo {
+    text-emphasis: bold;
+    color: gold;
+}
