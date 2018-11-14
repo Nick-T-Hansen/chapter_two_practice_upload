@@ -21,21 +21,39 @@ a {
 .active {
     color: yellow;
 }
+/* Q8 */
 h4 + div > div{
     color: red;
 }
-
+/* Q9- trouble working it */
 h4 + div ~ div {
     color: blue;
 }
-*/
-h4 + div ~ h4{
+/* Q10 */
+h4 + div > h4{
     background-color: red;
 }
+/* Q11 */
 h4 + div ~ h4{
     background-color: blue;
 }
-.promo {
-    text-emphasis: bold;
-    color: gold;
+/* Q12 */
+.grandparent > h4 {
+border-style: solid;
+border-radius: 10%;
+border-color: gold;
 }
+/* Q13 */
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+.promo > span{
+    color:gold;
+    font-weight: bold;
+}
+/* Q14 not working */
+input[placeholder] {
+    height: 24px;
+}
+
